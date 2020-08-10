@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  react-web:
+    image: hello-world:latest
+    environment:
+      - REACT_APP_ENV=docker
+    stdin_open: true
+    container_name: hello-world-app
+    ports:
+        - 3000:80
+    depends_on:
+      - springboot-docker-compose-mysql-app-container
+    volumes:
+      - /e/sudheer/stsworkspace/springdocker/uitmp:/usr/src/app
+      - /usr/src/app/node_modules

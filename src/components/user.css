@@ -1,0 +1,59 @@
+
+.container{
+    text-align: center;
+    border: 1px solid green;
+    padding: 5 px
+}
+
+.container table{
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto
+}
+tr, td {text-align: center;}
+
+.user_info table thead th{
+    font-size: 12px;
+    text-align: center !important;
+    color: blue;
+    border: blue;
+}
+#country{
+    width: 45%;
+    margin-bottom: 20px;
+}
+#state{
+    width: 45%;
+    margin-bottom: 20px;
+}
+#addressType{
+    width: 45%;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+#headerlinks{
+    border: 5px solid greenyellow;
+}
+
+#name{
+    margin-bottom: 20px;
+}
+
+.user_info table tbody td{
+    font-size: 12px;
+}
+.widthTable{
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    text-align: center;
+    transition: 200ms;
+}
+#footerclass{
+        text-align: center;
+        border: 5px solid blueviolet;
+        padding: 5 px
+}
