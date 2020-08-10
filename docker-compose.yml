@@ -8,8 +8,6 @@ services:
     container_name: hello-world-app
     ports:
         - 3000:80
-    depends_on:
-      - springboot-docker-compose-mysql-app-container
     volumes:
       - /e/sudheer/stsworkspace/springdocker/uitmp:/usr/src/app
       - /usr/src/app/node_modules
